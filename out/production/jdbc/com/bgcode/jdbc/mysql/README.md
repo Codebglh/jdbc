@@ -1,7 +1,7 @@
 ### 1、数据库
 
->```mysql
->CREATE DATABASE test;
+> ```mysql
+>CREATE DATABASE if not exists test;
 >#     创建数据库
 >drop database test;
 >#     删除数据库
@@ -62,7 +62,7 @@ DROP TABLE table_name;
 > ```sql
 > INSERT INTO table_name ( field1, field2,...fieldN ) VALUES ( value1, value2,...valueN );
 
->复制表
+> 复制表
 >```sql
 >show CREATE TABLE student
 >-- 1、显示表结构
